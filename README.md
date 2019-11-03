@@ -1,6 +1,8 @@
 # desafio-ustore-final
 Desafio da ustore com Spring boot e Mysql
 
+API REST que armazena um Object storage
+
 ## Requisições da API
 
 ### O método Mostrar()
