@@ -1,20 +1,20 @@
 # desafio-ustore-final
 Desafio da ustore com Spring boot e Mysql
 
-#Requisições da API
+## Requisições da API
 
-http://localhost:8080/objectStorage/objects com o metodo GET
+### O método Mostrar()
 
 Retorna todos os Object storage armazenados no banco
 
-http://localhost:8080/objectStorage/objects com o metodo POST
+### O método Adicionar(Object object)
 
-Adiciona o Object storage no banco e o retorna
+Adiciona o Object storage no banco e o retorna. Ele recebe dados do tipo Object
 
-http://localhost:8080/objectStorage/object/id/{id} com o metodo GET
+### O método MostrarPorId(int id)
 
-Retorna o Object storage armazenados no banco com o id informado
+Retorna o Object storage armazenados no banco com o id informado. Ele recebe um inteiro
 
-http://localhost:8080/objectStorage/object/descricao/{descricao} com o metodo GET
+### O método MostrarPorDescricao(String descricao)
 
-Retorna todos os Object storage armazenados no banco com descrição informada
+Retorna todos os Object storage armazenados no banco com descrição informada. Ele recebe uma String
